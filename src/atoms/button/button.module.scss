@@ -1,0 +1,102 @@
+@use "../../settings/border";
+@use "../../settings/colors";
+@use "../../settings/spacing";
+@use "../../settings/typography";
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: colors.$white;
+  // font: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: border.$radius-large;
+  transition: all 0.2s;
+  gap: spacing.$tiny;
+  padding: .5rem 1rem;
+  cursor: pointer;
+
+  
+  &--large {
+    font: typography.$b400-bold;
+  }
+
+  &--small {
+    font: typography.$b300-bold;
+  }
+
+  &--mini {
+    font: typography.$b300-bold;
+    padding: 2px 10px;
+  }
+
+  &--primary {
+    background: colors.$cta-primary;
+    color: colors.$cta-primary-text;
+
+    &:hover {
+      background: colors.$cta-primary-hover;
+      color: colors.$cta-primary-text-hover;
+    }
+  }
+
+  &--secondary {
+    color: colors.$cta-secondary-text;
+    background: colors.$cta-secondary;
+
+    &:hover {
+      background: colors.$cta-secondary-hover;
+      color: colors.$cta-secondary-text-hover;
+    }
+  }
+
+  &--tertiary {
+    background: colors.$white;
+    border: 1px solid colors.$border;
+    color: colors.$text-primary;
+
+    &:hover {
+      background: colors.$border-hover;
+    }
+  }
+
+  &--inverted {
+    color: colors.$white;
+    background: transparent;
+    border-color: colors.$white;
+
+    &:hover {
+      color: colors.$white-hover;
+      border-color: colors.$white-hover;
+    }
+  }
+
+  &--danger {
+    background: colors.$cta-danger;
+    color: colors.$cta-primary-text;
+
+    &:hover {
+      background: colors.$cta-danger-hover;
+      color: colors.$cta-danger-text-hover;
+    }
+  }
+
+  &--success {
+    background: colors.$cta-success;
+    color: colors.$cta-primary-text;
+
+    &:hover {
+      background: colors.$cta-success-hover;
+      color: colors.$cta-success-text-hover;
+    }
+  }
+
+  &:disabled {
+    color: colors.$state-disabled;
+    background: colors.$state-disabled-bg;
+    cursor: not-allowed;
+  }
+}

@@ -1,0 +1,99 @@
+$_primary-blue: #1e155a;
+$_primary-yellow: #ff9b00;
+$_secondary-green: #017f74;
+$_secondary-red: #ec4466;
+$_primary-gray: #787676;
+$_primary-grayLight: #e5e7eb;
+$_primary-grayLighter: #f9f9f9;
+$_primary-white: #fff;
+$_hover-yellow: rgb(255 155 0/ 70%);
+$_hover-blue: rgb(30 21 90 / 75%);
+$_active-green: rgb(1 126 116 / 15%);
+$_error: #f83d32;
+$white: $_primary-white;
+$white-hover: rgb(255 255 255 / 70%);
+
+$brand: $_primary-blue;
+
+$cta-danger: var(--moz-cta-danger);
+$cta-danger-text: var(--moz-cta-danger-text);
+$cta-danger-hover: var(--moz-cta-danger-hover);
+$cta-danger-text-hover: var(--moz-cta-danger-text-hover);
+
+$cta-success: var(--moz-cta-success);
+$cta-success-text: var(--moz-cta-success-text);
+$cta-success-hover: var(--moz-cta-success-hover);
+$cta-success-text-hover: var(--moz-cta-success-text-hover);
+
+$cta-primary: var(--moz-cta-primary);
+$cta-primary-text: var(--moz-cta-primary-text);
+$cta-primary-hover: var(--moz-cta-primary-hover);
+$cta-primary-text-hover: var(--moz-cta-primary-text-hover);
+
+$cta-secondary: var(--moz-cta-secondary);
+$cta-secondary-text: var(--moz-cta-secondary-text);
+$cta-secondary-hover: var(--moz-cta-secondary-hover);
+$cta-secondary-text-hover: var(--moz-cta-secondary-text-hover);
+
+
+$bg-primary: var(--moz-bg-primary);
+$bg-gray: var(--moz-bg-gray);
+$bg-gray-light: var(--moz-bg-gray-light);
+$bg-gray-lighter: var(--moz-bg-gray-lighter);
+$bg-active: var(--moz-bg-active);
+
+$text-title: var(--moz-text-title);
+$text-primary: var(--moz-text-primary);
+$text-secondary: var(--moz-text-secondary);
+$text-tertiary: var(--moz-text-tertiary);
+$text-success: var(--moz-text-success);
+$text-label: var(--moz-text-label);
+$text-input: var(--moz-text-input);
+
+
+
+$input-active: var(--moz-input-active);
+$input-default: var(--moz-input-default);
+$input-border: var(--moz-input-border);
+$border: var(--moz-border);
+$state-active: var(--moz-state-active);
+$state-error: var(--moz-state-error);
+$state-disabled: var(--moz-state-disabled);
+$state-disabled-bg: var(--moz-state-disabled-bg);
+$checbox-active: var(--moz-checbox-active);
+$checkbox-disabled: var(--checkbox-disabled);
+$checkbox-disabled-bg: var(--checkbox-disabled-bg);
+$border: var(--moz-border);
+$border-hover: var(--moz-border-hover);
+$success: rgb(25, 135, 84);
+$danger: rgb(220, 53, 69);
+
+
+
+// $bg-primary: $_secondary-green;
+// $bg-gray: $_primary-grayLight;
+// $bg-gray-light: $_primary-grayLight;
+// $bg-gray-lighter: $_primary-grayLighter;
+// $bg-active: $_active-green;
+
+// $text-primary: var(--moz-text-primary);
+// $text-secondary: $_primary-gray;
+// $text-tertiary: $_secondary-red;
+// $text-success: $_secondary-green;
+
+// $input-active: $_primary-yellow;
+// $input-default: $_primary-gray;
+// $input-border: $_primary-grayLight;
+// $border: $_primary-grayLight;
+
+// $state-active: $_primary-blue;
+// $state-error: $_error;
+// $state-disabled: $_primary-grayLight;
+// $state-disabled-bg: $_primary-grayLighter;
+
+// $checbox-active: $_primary-blue;
+// $checkbox-disabled: $_primary-grayLight;
+// $checkbox-disabled-bg: $_primary-grayLighter;
+
+// $border: #e5e7eb;
+// $border-hover: #b1b1b1;

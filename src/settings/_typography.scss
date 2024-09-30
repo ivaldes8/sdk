@@ -1,0 +1,42 @@
+$font-family: var(--moz-font-family);
+$font-family-title: var(--moz-font-family-title);
+
+// Body sizes
+$b500-bold: 600 1.31rem / 1.33 #{$font-family};
+$b500-regular: 1.31rem / 1.33 #{$font-family};
+$b400-bold: 600 1.125rem / 1.55 #{$font-family};
+$b400-regular: 1.125rem / 1.55 #{$font-family};
+$b300-bold: 600 1rem / 1.5 #{$font-family};
+$b300-regular: 1rem / 1.5 #{$font-family};
+$b200-bold: 600 0.875rem / 1.42 #{$font-family};
+$b200-regular: 0.875rem / 1.42 #{$font-family};
+$b100-bold: 600 0.75rem / 1rem #{$font-family};
+$b100-regular: 0.75rem / 1rem #{$font-family};
+
+// Desktop title sizes
+
+$xl-h100-semibold: 600 1.15rem/1.68rem #{$font-family-title};
+
+$xl-h500-regular: 600 3rem / 1 #{$font-family-title};
+$xl-h400-regular: 600 2.25rem / 2.5rem #{$font-family-title};
+$xl-h300-regular: 600 1.875rem / 2.25rem #{$font-family-title};
+$xl-h200-regular: 1.5rem / 2rem #{$font-family-title};
+$xl-h100-bold: 700 1.25rem / 1.75rem #{$font-family-title};
+$xl-h100-regular: 1.25rem / 1.75rem #{$font-family-title};
+
+// Tablet title sizes
+$lg-h500-regular: 600  2.25rem / 2.5rem #{$font-family-title};
+$lg-h400-regular: 600 1.875rem / 2.25rem #{$font-family-title};
+
+// Mobile title sizes
+$sm-h500-regular: 600 2.25rem / 2.5rem #{$font-family-title};
+$sm-h400-regular: 600 1.875rem / 2.25rem #{$font-family-title};
+$sm-h300-regular: 600 1.5rem / 2rem #{$font-family-title};
+$sm-h200-regular: 1.25rem / 1.75rem #{$font-family-title};
+$sm-h100-bold: 700 1.125rem / 1.75rem #{$font-family-title};
+$sm-h100-regular: 1.125rem / 1.75rem #{$font-family-title};
+
+
+
+$text-label: var(--moz-font-weight-label)  var(--moz-font-size-label) / var(--moz-line-height-label) var(--moz-font-family-label);
+$text-input: var(--moz-font-weight-input)  var(--moz-font-size-input) / var(--moz-line-height-input) var(--moz-font-family-input);
