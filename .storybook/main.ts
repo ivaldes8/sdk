@@ -2,11 +2,11 @@ import type { StorybookConfig } from "@storybook/react-vite";
 
 const config: StorybookConfig = {
   stories: [
-    "../src/atoms/**/*.stories.@(js|jsx|mjs|ts|tsx)",
-    "../src/molecules/**/*.stories.@(js|jsx|mjs|ts|tsx)",
-    "../src/organisms/**/*.stories.@(js|jsx|mjs|ts|tsx)",
-    // "../src/templates/**/*.stories.@(js|jsx|mjs|ts|tsx)",
-    // "../src/pages/**/*.stories.@(js|jsx|mjs|ts|tsx)"
+    "../src/atoms/**/*.stories.@(js|jsx|mjs|ts|tsx|mdx)",
+    "../src/molecules/**/*.stories.@(js|jsx|mjs|ts|tsx|mdx)",
+    "../src/organisms/**/*.stories.@(js|jsx|mjs|ts|tsx|mdx)",
+    // "../src/templates/**/*.stories.@(js|jsx|mjs|ts|tsx|mdx)",
+    // "../src/pages/**/*.stories.@(js|jsx|mjs|ts|tsx|mdx)"
   ],
   addons: [
     "@storybook/addon-onboarding",

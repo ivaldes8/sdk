@@ -4,7 +4,7 @@ import { Icon, Icons } from "../icon/Icon";
 
 type Props = {
   mode?: "primary" | "secondary" | "tertiary" | "inverted" | "danger" | "success";
-  size?: "large" | "small" | "mini";
+  size?: "large" | "default" | "small" | "mini";
   type?: "button" | "submit" | "reset";
   children: any;
   disabled?: boolean;
@@ -15,7 +15,7 @@ type Props = {
 
 export const Button = ({
   mode = "primary",
-  size = "small",
+  size = "default",
   children,
   icon,
   isLoading,

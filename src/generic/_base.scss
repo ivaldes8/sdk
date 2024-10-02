@@ -32,24 +32,47 @@
   "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
   "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-  --moz-cta-primary: #ff9b00;
+  --moz-cta-primary: #1e155a;
   --moz-cta-primary-text: white;
-  --moz-cta-primary-hover: rgb(255 155 0/ 70%);
-  --moz-cta-primary-text-hover: #1e155a;
-  --moz-cta-secondary: #1e155a;
-  --moz-cta-secondary-hover: rgb(30 21 90 / 75%);
+  --moz-cta-primary-hover: rgb(30 21 90 / 75%);
+  --moz-cta-primary-text-hover: #ffffff;
+  --moz-cta-primary-soft: #cfe2ff;
+  --moz-cta-primary-soft-text: #084298;
+
+  --moz-cta-secondary: #ff9b00;
+  --moz-cta-secondary-hover:rgb(255 155 0/ 70%);
   --moz-cta-secondary-text: #fff;
   --moz-cta-secondary-text-hover: #fff;
+  --moz-cta-secondary-soft: #e2e3e5;
+  --moz-cta-secondary-soft-text: #41464b;
+
+  --moz-cta-info: #017f74;
+  --moz-cta-info-text: #055160;
+  --moz-cta-info-hover: #cff4fc;
+  --moz-cta-info-text-hover: #055160;
+  --moz-cta-info-soft: #cff4fc;
+  --moz-cta-info-soft-text: #055160;
 
   --moz-cta-danger: #f83d32;
   --moz-cta-danger-text: white;
-  --moz-cta-danger-hover: #e12015;
+  --moz-cta-danger-hover: #ed8f8a;
   --moz-cta-danger-text-hover: white;
+  --moz-cta-danger-soft: #f8d7da;
+  --moz-cta-danger-soft-text: #842029;
 
-  --moz-cta-success: #34cc16;
+  --moz-cta-warning: #eff37f;
+  --moz-cta-warning-text: #1e155a;
+  --moz-cta-warning-hover: #f2f5af;
+  --moz-cta-warning-text-hover: #1e155a;
+  --moz-cta-warning-soft: #fff3cd;
+  --moz-cta-warning-soft-text: #664d03;
+
+  --moz-cta-success: #2c9a16;
   --moz-cta-success-text: white;
-  --moz-cta-success-hover: #2aa911;
+  --moz-cta-success-hover: #70cd60;
   --moz-cta-success-text-hover: white;
+  --moz-cta-success-soft: #d1e7dd;
+  --moz-cta-success-soft-text: #0f5132;
 
   --moz-bg-gray: #787676;
   --moz-bg-gray-light: #e5e7eb;

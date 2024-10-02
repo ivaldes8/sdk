@@ -24,8 +24,13 @@
     font: typography.$b400-bold;
   }
 
+  &--default {
+    font: typography.$b300-bold;
+  }
+
   &--small {
     font: typography.$b300-bold;
+    padding: 5px 10px;
   }
 
   &--mini {

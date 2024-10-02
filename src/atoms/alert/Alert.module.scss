@@ -1,0 +1,46 @@
+@use "../../settings/spacing";
+@use "../../settings/border";
+@use "../../settings/colors";
+
+.alert {
+  padding: spacing.$xs;
+  background-color: colors.$cta-primary-soft;
+  color: colors.$cta-primary-soft-text;
+  border-radius: border.$radius-default;
+
+  &--primary {
+    background: colors.$cta-primary-soft;
+    color: colors.$cta-primary-soft-text;
+    border: 1px solid colors.$cta-primary-hover;
+  }
+
+  &--secondary {
+    color: colors.$cta-secondary-soft-text;
+    background: colors.$cta-secondary-soft;
+    border: 1px solid colors.$cta-secondary-hover;
+  }
+
+  &--danger {
+    background: colors.$cta-danger-soft;
+    color: colors.$cta-danger-soft-text;
+    border: 1px solid colors.$cta-danger-hover;
+  }
+
+  &--success {
+    background: colors.$cta-success-soft;
+    color: colors.$cta-success-soft-text;
+    border: 1px solid colors.$cta-success-hover;
+  }
+
+  &--info {
+    background: colors.$cta-info-soft;
+    color: colors.$cta-info-soft-text;
+    border: 1px solid colors.$cta-info-hover;
+  }
+
+  &--warning {
+    background: colors.$cta-warning-soft;
+    color: colors.$cta-warning-soft-text;
+    border: 1px solid colors.$cta-warning-hover;
+  }
+}
