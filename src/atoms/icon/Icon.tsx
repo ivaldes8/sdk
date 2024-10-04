@@ -4,7 +4,7 @@ import { classNames } from "../../utils/classNames";
 
 import * as icons from "../../icons/icons";
 
-import styles from "./icon.module.scss";
+import styles from "./Icon.module.scss";
 
 export type Icons = keyof typeof icons;
 

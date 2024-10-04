@@ -1,0 +1,21 @@
+@use "../../typography/typography";
+@use "../../settings/colors";
+
+.heading {
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+  color: colors.$text-title;
+
+  &--large {
+    @include typography.h400-regular;
+  }
+
+  &--medium {
+    @include typography.h200-regular;
+  }
+
+  &--small {
+    @include typography.h100-bold;
+  }
+}

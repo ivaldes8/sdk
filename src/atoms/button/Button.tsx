@@ -1,6 +1,6 @@
 import { classNames } from "../../utils/classNames";
-import styles from "./button.module.scss";
-import { Icon, Icons } from "../icon/Icon";
+import styles from "./Button.module.scss";
+import { Icon, Icons } from "../Icon/Icon";
 
 type Props = {
   mode?: "primary" | "secondary" | "tertiary" | "inverted" | "danger" | "success";
